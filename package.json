@@ -1,0 +1,24 @@
+{
+  "name": "rctimer.rpi.home",
+  "version": "1.0.0",
+  "description": "Raspberry Pi project om remote rc stopcontacten aan te sturen",
+  "main": "index.js",
+  "scripts": {
+    "test": "toggle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "RCTimer"
+  },
+  "keywords": [
+    "rc",
+    "timer",
+    "raspberry",
+    "pi"
+  ],
+  "author": "mdemuynck",
+  "license": "ISC",
+  "dependencies": {
+    "piswitch": "1.2.3"
+  }
+}
