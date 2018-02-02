@@ -19,6 +19,8 @@
   "author": "mdemuynck",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.2",
+    "mock-require": "^3.0.1",
     "piswitch": "1.2.3"
   }
 }
