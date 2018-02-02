@@ -19,7 +19,7 @@ app.get('/', function(req, resp){
     resp.send("socket "+ s + "on");
 });
 
-app.listen(8001).then(console.log("server listening at port 8001"));
+app.listen(8001, () => console.log("listening on port 8001"));
 
 function toggleSocket(s, off){
     var code = [];
