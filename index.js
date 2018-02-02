@@ -1,8 +1,16 @@
 var rc = require("piswitch");
+
 var express = require("express");
 
 var app = express();
 var off = false;
+
+rc.setup({
+    mode: 'sys',
+    pin: 23,
+    pulseLength: 350,
+    protocol: 1
+})
 
 app.get('/', function(req, resp){
     var s = req.query.socket;
